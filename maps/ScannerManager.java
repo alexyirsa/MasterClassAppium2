@@ -1,9 +1,9 @@
-package sets;
+package maps;
 
 import java.util.Scanner;
 
 public class ScannerManager {
-    public static int leerInt(Scanner scanner, String mensaje) {
+    static int leerInt(Scanner scanner, String mensaje) {
         System.out.printf("%s: ", mensaje);
         return scanner.nextInt();
     }
